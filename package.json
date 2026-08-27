@@ -1,0 +1,19 @@
+{
+  "name": "dreamdex-bot",
+  "version": "1.0.0",
+  "description": "Odds Oracle - Telegram bot for DreamDEX Event Contracts",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["telegram", "bot", "dreamdex", "somnia", "crypto"],
+  "author": "Basara",
+  "license": "ISC",
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "^0.28.1",
+    "telegraf": "^4.16.3",
+    "viem": "^2.55.19"
+  }
+}
